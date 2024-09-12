@@ -389,6 +389,8 @@ function sample() {
 
 ### 2. When you want to generate a script with your prompt and the sources from Stackoverflow
 
+You can see the details of StackExchange API at [here](https://api.stackexchange.com/).
+
 ```javascript
 function sample1() {
   const prompt = "### your prompt ###";
@@ -561,6 +563,8 @@ When this script is run, the rows without empty in column "A" are copied from "S
 This sample generates a script using **both the prompt and the questions and answers from Stackoverflow**.
 
 When you use this script, please set your API key for using Gemini API. And, your access token and key for using StackExchange API.
+
+You can see the details of StackExchange API at [here](https://api.stackexchange.com/).
 
 ```javascript
 function sample2() {
